@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- nav -->
+        <nav>
+            <div class="container">
+                <div class="main-nav" id="nav">
+                    <!-- logo -->
+                    <div class="hamburger" onclick="navOpen()">
+                        <span class="material-symbols-outlined"> menu </span>
+                    </div>
+                    <div class="close" onclick="navClose()">
+                        <span class="material-symbols-outlined"> close </span>
+                    </div>
+
+                    <img class="logo" src="Images/logo.png" />
+
+                    <ul class="nav-list">
+                        <li>
+                            <a href=""> Work </a>
+                        </li>
+                        <li>
+                            <a href=""> Service </a>
+                        </li>
+                        <li>
+                            <a href=""> About Us </a>
+                        </li>
+                        <li>
+                            <a href=""> Insight </a>
+                        </li>
+                    </ul>
+                    <!-- 聯絡按鈕 -->
+                    <a href="" class="contact-btn">
+                        <div>Contact Us</div>
+                    </a>
+
+                    <a href="" class="contact-icon">
+                        <span class="material-symbols-outlined"> supervisor_account </span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- 中間部分 -->
+        <div class="middle-wrapper">
+            <div class="container">
+                <div class="middle-grid">
+                    <div class="middle-group">
+                        <div class="middle-title">
+                            <img src="Images/icon-fire.png" />
+                            <span>HUMAN CENTRIC EXPERIENCE</span>
+                        </div>
+                        <div class="content">Startups makes the world go round!</div>
+                        <div class="btn-group">
+                            <a href="" class="get-started">Get Started →</a>
+                            <a href="" class="see-reviews">See Reviews √</a>
+                        </div>
+                    </div>
+                    <img src="Images/pic1.png" />
+                </div>
+            </div>
+        </div>
+
+        <!-- 下面部分 -->
+        <div class="about-us">
+            <div class="container">
+                <div class="about-content">
+                    <div class="title">ABOUT US</div>
+                    <div class="content">we're proud to say our clients come to us from all around the world.</div>
+                </div>
+
+                <!-- 項目 -->
+                <ul class="items-list">
+                    <li class="item orange">
+                        <div class="item-container">
+                            <img src="Images/icon-lock.png" />
+                            <div class="title">Unlock New Solutions</div>
+                            <div class="content">Assumptions about a product, an audience, and what is possible.</div>
+                            <a href="">Visit Gallery →</a>
+                        </div>
+                    </li>
+                    <li class="item blue">
+                        <div class="item-container">
+                            <img src="Images/icon-chart.png" />
+                            <div class="title">Finding Proper Result</div>
+                            <div class="content">We're not afraid to move, to try new things, or make mistakes.</div>
+                            <a href="">Visit Gallery →</a>
+                        </div>
+                    </li>
+                    <li class="item purple">
+                        <div class="item-container">
+                            <img src="Images/icon-dashboard.png" />
+                            <div class="title">Great Experiences</div>
+                            <div class="content">
+                                We carefully consider every project we take on because when we commit.
+                            </div>
+                            <a href="">Visit Gallery →</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            function navOpen() {
+                var navActive = document.getElementById("nav");
+                navActive.className = "main-nav active";
+            }
+            function navClose() {
+                var navClose = document.getElementById("nav");
+                navClose.className = "main-nav";
+            }
+        </script>
+    </body>
+</html>
