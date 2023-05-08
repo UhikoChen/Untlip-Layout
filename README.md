@@ -4,4 +4,4 @@
 
 View site：https://uhikochen.github.io/Untlip-Layout/
 
-![image](https://github.com/UhikoChen/Untlip-Layout/blob/main/Images/design.png)
+![image](https://github.com/UhikoChen/Untlip-Layout/blob/main/Images/design.jpeg)
